@@ -1,0 +1,14 @@
+body {
+    overflow-x: hidden;
+}
+
+.container-fluid.cuerpo {
+	margin-left: -2px;
+	margin-right: -2px;
+	color: #177170;
+	width: 105%;
+	height: 500px;
+}
+.columna2 {
+	margin-top: 50px;
+}
