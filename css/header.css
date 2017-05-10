@@ -11,7 +11,8 @@ body {
 	height: 15px;
 	background-color: #c5e3e3;
 }
-#small-blue-line {
+
+#thin-blue-line {
 	margin-top: -15px;
 	margin-left: 0px;
     overflow-y: auto;
@@ -19,6 +20,7 @@ body {
 	height: 5px;
 	background-color: #c5e3e3;
 }
+
 .container-fluid.cabecera {
 	background-image: url("../images/Fondo_triangulos-01.png");
 	background-repeat: no-repeat;
@@ -28,8 +30,9 @@ body {
 	margin-right: -2px;
 	color: #177170;
 	width: 105%;
-	height: 300px;
+	height: 280px;
 }
+
 .titulo {
 	margin: 100px;
 }

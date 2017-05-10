@@ -5,25 +5,32 @@ body {
 .container-fluid.barra {
 	background-color: #177170;
 }
+
 .navbar-nav {
 	background-color: #177170;
 }
+
 .navbar-nav li a {
 	color: #fff;
 }
+
 .navbar-nav li a:active,
 .navbar-nav li a:hover,
 .navbar-nav li a:focus {
 	background-color: #177170 !important;
     color:#C5E3E3;
 }
+
 .dropdown-menu.columns-5 {
 	min-width: 1300px;
 }
+
 .multi-column-dropdown li a {
 	display: block;
 	color: #2E595C;
+	list-style: none;
 }
+
 .multi-column-dropdown li a:hover {
 	text-decoration: none;
     color: #177170;

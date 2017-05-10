@@ -2,13 +2,49 @@ body {
     overflow-x: hidden;
 }
 
+#dark-blue-line {
+    margin-top: 0px;
+    margin-left: 0px;
+    overflow-y: auto;
+    width: 100%;
+    height: 5px;
+    background-color: #2E595C;
+}
+
+#white-line {
+    margin-top: 50px;
+    margin-left: 0px;
+    overflow-y: auto;
+    width: 100%;
+    height: 5px;
+    background-color: #fff;
+}
+
+#small-blue-line {
+	margin-top: -10px;
+	margin-left: 0px;
+    overflow-y: auto;
+    width: 100%;
+	height: 5px;
+	background-color: #c5e3e3;
+}
+
 .container-fluid.cuerpo {
 	margin-left: -2px;
 	margin-right: -2px;
-	color: #177170;
 	width: 105%;
 	height: 500px;
 }
+
 .columna2 {
 	margin-top: 50px;
+	margin-right: 50px;
+	color: #2E595C;
+}
+
+.titulo-cuerpo {
+	margin-top: -10px;
+	background-color: #C5E3E3;
+	height: 30px;
+	padding: 5px;
 }
