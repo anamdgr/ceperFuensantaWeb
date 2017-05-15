@@ -2,19 +2,10 @@ body {
     overflow-x: hidden;
 }
 
-#sidebar-wrapper {
-    width: 0;
-    height: 360px;
-    margin-left: -12px;
-    margin-top: 50px;
-    overflow-y: auto;
-    background: #C5E3E3;
-}
-
 .sidebar-nav {
     position: static;
     top: 25px;
-    width: 250px;
+    width: 75%;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -55,10 +46,4 @@ body {
 .sidebar-nav > .sidebar-brand a:hover {
     color: #2E595C;
     background: rgba(197, 227, 227, 1);
-}
-
-@media(min-width:768px) {
-    #sidebar-wrapper {
-        width: 250px;
-    }
 }

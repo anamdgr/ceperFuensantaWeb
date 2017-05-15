@@ -22,17 +22,25 @@ body {
 }
 
 .dropdown-menu.columns-5 {
-	min-width: 1300px;
+	margin-top: 3px !important;
+	width: 1200px;
+	border-top: 10px solid;
+	border-top-color: #C5E3E3;
+}
+
+.multi-column-dropdown {
+	list-style-type: none;
+	padding-left: 10px;
 }
 
 .multi-column-dropdown li a {
+	padding: 3px;
 	display: block;
 	color: #2E595C;
-	list-style: none;
 }
 
 .multi-column-dropdown li a:hover {
 	text-decoration: none;
-    color: #177170;
-    background: rgba(197, 227, 227, 1) !important;
+    color: #C5E3E3;
+    background: #fff !important;
 }
