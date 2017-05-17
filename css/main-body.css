@@ -113,3 +113,42 @@ body {
 	margin-left: 50px;
 	margin-bottom: 20px;
 }
+
+.pie {
+	width: 20%;
+	margin: 0 auto;
+	margin-top: 40px !important;
+}
+
+.enlaces-pie {
+	font-size: 10px;
+	text-align: center;
+}
+
+.enlaces-pie ul {
+	margin: 0;
+	padding: 0;
+}
+
+.enlaces-pie ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.enlaces-pie ul li:not(:first-child):before {
+	content: " | ";
+}
+
+.enlaces-pie ul li a {
+	color: #2E595C;
+	padding: 15%;
+	padding-top: 5px !important;
+}
+
+.enlaces-pie li a:hover,
+.enlaces-pie li a:active,
+.enlaces-pie li a:focus {
+	text-decoration: none;
+	background-color: none;
+	color: #77CBC9;
+}
