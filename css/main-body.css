@@ -28,7 +28,7 @@ body {
 }
 
 #white-line {
-    margin-top: 50px;
+    margin-bottom: -5px;
     margin-left: 0px;
     overflow-y: auto;
     width: 100%;
@@ -67,6 +67,7 @@ body {
 	border-bottom: 5px solid transparent;
 	border-left: 5px solid #2E595C;
 }
+
 .container-fluid.cuerpo {
 	margin-top: 50px;
 	margin-left: -2px;
@@ -90,10 +91,10 @@ body {
 .barra-lateral {
 	background: #C5E3E3;
 	margin-left: -10px !important;
-	width: 80%;
 	border-top: 4px solid;
 	border-top-color: #2E595C;
 	padding-top: 10px;
+	display: inline-block;
 }
 
 .titulo-cuerpo {
