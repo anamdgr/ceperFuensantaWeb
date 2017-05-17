@@ -1,5 +1,11 @@
 body {
-    overflow-x: hidden;
+    overflow-x: hidden; 
+    font-family: avenir;   
+}
+
+@font-face {
+	font-family: avenir;
+	src: url('../fonts/Avenir.ttc');
 }
 
 #dark-blue-point {
@@ -7,7 +13,7 @@ body {
     margin-left: -20px;
     margin-bottom: -5px;
     width: 5px !important;
-    height: 5px;
+    height: 4px;
     padding: 0px;
     background-color: #2E595C;
 }
@@ -17,7 +23,7 @@ body {
     margin-left: 0px;
     overflow-y: auto;
     width: 100%;
-    height: 5px;
+    height: 2px;
     background-color: #2E595C;
 }
 
@@ -26,7 +32,7 @@ body {
     margin-left: 0px;
     overflow-y: auto;
     width: 100%;
-    height: 5px;
+    height: 4px;
     background-color: #fff;
 }
 
@@ -39,6 +45,28 @@ body {
 	background-color: #C5E3E3;
 }
 
+.seper-title {
+	margin-bottom: -30px;
+}
+
+.seper-title li{
+	list-style-type: none;
+	margin-left: 70px;
+	color: #2E595C;
+}
+
+.seper-title li::before {
+	position:absolute;
+	content:"";
+	transform:translateY(-50%);
+	margin-left:-10px;
+	margin-top: 9px;
+	width: 0; 
+	height: 0; 
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid #2E595C;
+}
 .container-fluid.cuerpo {
 	margin-top: 50px;
 	margin-left: -2px;
@@ -50,6 +78,7 @@ body {
 .columna-texto {
 	border-left: 5px solid;
 	border-left-color: #C5E3E3;
+	font-size: 12px;
 }
 
 .columna {
@@ -60,11 +89,26 @@ body {
 
 .barra-lateral {
 	background: #C5E3E3;
+	margin-left: -10px !important;
+	width: 80%;
+	border-top: 4px solid;
+	border-top-color: #2E595C;
+	padding-top: 10px;
 }
 
 .titulo-cuerpo {
-	margin-top: -10px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	display: inline-block;
 	background-color: #C5E3E3;
 	height: 30px;
 	padding: 5px;
+	border-top: 2px solid;
+	border-top-color: #2E595C;
+}
+
+.lineas-fotos {
+	margin-top: 35px;
+	margin-left: 50px;
+	margin-bottom: 20px;
 }
