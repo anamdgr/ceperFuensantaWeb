@@ -7,13 +7,15 @@
 
 .navbar-nav {
 	background-color: #177170;
-	height: 30px;
+	height: 20px;
+	margin-left: 20px;
 }
 
 .navbar-nav li a {
 	color: #fff;
 	padding: 5px;
 	margin-right: 20px;
+	height: 20px;
 }
 
 .navbar-nav li a:before {
@@ -36,7 +38,7 @@
 }
 
 .dropdown-menu.columns-5 {
-	margin-top: 3px !important;
+	margin-top: 13px !important;
 	width: 1000%;
 	border-top: 10px solid;
 	border-top-color: #C5E3E3;

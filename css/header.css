@@ -18,17 +18,17 @@
 	background-color: #c5e3e3;
 }
 
-.container-fluid.cabecera {
+.cabecera {
+	height: 240px;
+}
+
+
+.cabecera-central {
 	background-image: url("../images/Fondo_triangulos-01.png");
 	background-repeat: no-repeat;
-	background-size: cover; 
-	background-position: left;
-	margin-left: -2px;
-	margin-right: -2px;
+	background-size: 110% 105%; 
+	background-position-x: -2px;
 	margin-top: -2px;
-	margin-bottom: -2px;
-	width: 105%;
-	height: 250px;
 }
 
 .titulo {
