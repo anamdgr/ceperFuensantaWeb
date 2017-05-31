@@ -23,10 +23,72 @@
 }
 
 
-.cabecera-central {
-	background-image: url("../images/Fondo_triangulos-01.png");
+.cabecera-central-1 {
+	background-image: url("../images/Banners/1.jpg");
 	background-repeat: no-repeat;
-	background-size: 110% 105%; 
+	background-size: 105% 105%; 
+	background-position-x: -2px;
+	margin-top: -2px;
+}
+.cabecera-central-2 {
+	background-image: url("../images/Banners/2.jpg");
+	background-repeat: no-repeat;
+	background-size: 105% 105%; 
+	background-position-x: -2px;
+	margin-top: -2px;
+}
+.cabecera-central-3 {
+	background-image: url("../images/Banners/3.jpg");
+	background-repeat: no-repeat;
+	background-size: 105% 105%; 
+	background-position-x: -2px;
+	margin-top: -2px;
+}
+.cabecera-central-4 {
+	background-image: url("../images/Banners/4.jpg");
+	background-repeat: no-repeat;
+	background-size: 105% 105%; 
+	background-position-x: -2px;
+	margin-top: -2px;
+}
+.cabecera-central-5 {
+	background-image: url("../images/Banners/5.jpg");
+	background-repeat: no-repeat;
+	background-size: 105% 105%; 
+	background-position-x: -2px;
+	margin-top: -2px;
+}
+.cabecera-central-6 {
+	background-image: url("../images/Banners/6.jpg");
+	background-repeat: no-repeat;
+	background-size: 105% 105%; 
+	background-position-x: -2px;
+	margin-top: -2px;
+}
+.cabecera-central-7 {
+	background-image: url("../images/Banners/7.jpg");
+	background-repeat: no-repeat;
+	background-size: 105% 105%; 
+	background-position-x: -2px;
+	margin-top: -2px;
+}
+.cabecera-central-8 {
+	background-image: url("../images/Banners/8.jpg");
+	background-repeat: no-repeat;
+	background-size: 105% 105%; 
+	background-position-x: -2px;
+	margin-top: -2px;
+}.cabecera-central-9 {
+	background-image: url("../images/Banners/9.jpg");
+	background-repeat: no-repeat;
+	background-size: 105% 105%; 
+	background-position-x: -2px;
+	margin-top: -2px;
+}
+.cabecera-central-10 {
+	background-image: url("../images/Banners/10.jpg");
+	background-repeat: no-repeat;
+	background-size: 105% 105%; 
 	background-position-x: -2px;
 	margin-top: -2px;
 }
@@ -54,4 +116,31 @@
 	margin-top: 60px;
 	margin-bottom: 65px;
 	color: #177170;
+}
+
+.facebook-link {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 27px;
+	height: 27px;
+	float: right;
+	margin-right: 5px;
+}
+
+.twitter-link {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 27px;
+	height: 27px;
+	float: right;
+	margin-right: 5px;
+}
+
+.google-link {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 27px;
+	height: 27px;
+	float: right;
+	margin-right: 5px;
 }
