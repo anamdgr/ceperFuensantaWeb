@@ -74,7 +74,7 @@ body {
 	margin-left: -2px;
 	margin-right: -2px;
 	width: 105%;
-	height: 500px;
+	height: 520px;
 }
 
 .columna-texto {
@@ -122,13 +122,16 @@ body {
 }
 
 .erasmus-link {
+	padding: 4px;
+	margin-top: 20px;
 	margin-bottom: 10px;
-	width: 40%;
+	min-height: 30px;
+	width: 130px;
 	float: right;
 	border: 1px solid;
 	border-color: #E6E6E6;
 	box-shadow: 2px 2px 2px #E6E6E6;
-	margin-right: 10%;
+	margin-right: 0px;
 }
 
 .pie {
@@ -148,6 +151,7 @@ body {
 }
 
 .enlaces-pie ul li {
+	color: #2E595C;
 	list-style-type: none;
 	display: inline-block;
 }

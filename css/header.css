@@ -19,9 +19,8 @@
 }
 
 .cabecera {
-	height: 240px;
+	height: 200px !important;
 }
-
 
 .cabecera-central-1 {
 	background-image: url("../images/Banners/1.jpg");
@@ -95,25 +94,25 @@
 
 .titulo {
 	margin-left: 100px;
-	margin-top: 80px;
+	margin-top: 60px;
 	color: #177170;
 }
 
 .subtitulo {
 	margin-left: 100px;
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 	color: #77CBC9;
 }
 
 .titulo-seper {
 	margin-left: 50px;
-	margin-top: 60px;
+	margin-top: 40px;
 	color: #77CBC9;
 }
 
 .subtitulo-seper {
 	margin-left: 50px;
-	margin-top: 60px;
+	margin-top: 40px;
 	margin-bottom: 65px;
 	color: #177170;
 }
