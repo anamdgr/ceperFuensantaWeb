@@ -38,7 +38,7 @@
 
 .dropdown-menu.columns-5 {
 	margin-top: 13px !important;
-	width: 1000%;
+	width: 740%;
 	border-top: 10px solid;
 	border-top-color: #C5E3E3;
 	font-size: 12px;
@@ -47,10 +47,12 @@
 .multi-column-dropdown {
 	list-style-type: none;
 	padding-left: 10px;
+	margin-right: -50px !important;
 }
 
 .multi-column-dropdown li a {
 	padding: 3px;
+	margin-right: -40px !important;
 	display: block;
 	color: #2E595C;
 }
