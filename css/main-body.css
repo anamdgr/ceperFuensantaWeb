@@ -127,19 +127,6 @@ body {
 	width: 90%;
 }
 
-.erasmus-link {
-	padding: 4px;
-	margin-top: 20px;
-	margin-bottom: 10px;
-	min-height: 30px;
-	width: 130px;
-	float: right;
-	border: 1px solid;
-	border-color: #E6E6E6;
-	box-shadow: 2px 2px 2px #E6E6E6;
-	margin-right: 0px;
-}
-
 .pie {
 	width: 250px;
 	margin: 0 auto;

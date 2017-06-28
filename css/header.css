@@ -123,6 +123,7 @@
 	height: 27px;
 	float: right;
 	margin-right: 5px;
+	background-color: transparent;
 }
 
 .twitter-link {
@@ -132,6 +133,7 @@
 	height: 27px;
 	float: right;
 	margin-right: 5px;
+	background-color: transparent;
 }
 
 .google-link {
@@ -141,4 +143,21 @@
 	height: 27px;
 	float: right;
 	margin-right: 5px;
+	background-color: transparent;
+}
+
+.erasmus-link {
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+	background-color: transparent;
+}
+
+.junta-link {
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+	background-color: transparent;
 }
